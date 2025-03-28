@@ -87,7 +87,7 @@ jobs:
           log: "log.txt"
           logTime: "false"
           custom404Page: "/404.html"
-      - name: Run test
+      - name: Generate PDF
         uses: tj-actions/puppeteer@v5
         id: puppeteer
         with:
